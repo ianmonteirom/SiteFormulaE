@@ -5,6 +5,9 @@
     list-style: none;
     text-decoration: none;
 }
+body{
+    background-color: rgb(255, 255, 255);
+}
 
 header{
     width: 100%;
@@ -29,22 +32,55 @@ nav ul {
     margin-top: 25px;
     gap: 30px;
     font-weight: 700;
+
     
 }
 
 nav ul li a{
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul  :hover {
     font-weight: 800;
     margin-top: -3px;
-    
 }
 
 #imgBanner {
     display: flex;
     width: 100%;
     height: auto;
+}
+
+#bcorridas{
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: rgb(68, 68, 68);
+    width: 80%;
+    height: 600px;
+}
+
+#botão1{
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    margin: 20px 20px 100px;
+    font-size: 40px;
+}
+
+#bcorridas p{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bpilotos{
+    background-color: rgb(250, 0, 0);
+    margin-top: 5px;
+}
+
+footer h4{
+   text-align: center;
 }
